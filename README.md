@@ -64,4 +64,11 @@ The **parser** verifies if the input string follows the rules specified in the S
 ![image](https://github.com/user-attachments/assets/1124f9c1-b443-45ef-bf91-2addccca9395)
 ![image](https://github.com/user-attachments/assets/11a95208-08a9-492c-a37d-aab649643f29)
 
+### Tasks done:
+- Implemented a lexical analyzer based on the required specifications.
+- Lexical error reporting.
+- Syntactic analyser based on the language specifications.
+- Symbol table.
+- Check for validity of string.
+- Prints the stream of tokens of valid string.
 
