@@ -54,11 +54,11 @@ The **parser** verifies if the input string follows the rules specified in the S
 - **Handling Punctuation**: Ensures commas and hyphens are correctly placed between words, and that commas are prioritized if both are present.
 - **Optional**: Print the accepted input (considering tokens, not the original string) with one space between tokens (skip the quotations).
 
-###  Running the code
--lex lexer.l
--yacc -d parser.y
--gcc lex.yy.c y.tab.c -o parser -lfl
--./parser
+###  Running the code:
+- lex lexer.l
+- yacc -d parser.y
+- gcc lex.yy.c y.tab.c -o parser -lfl
+- ./parser
 
 ![image](https://github.com/user-attachments/assets/dc85049f-bd91-4970-94e4-e6c91eea06e2)
 ![image](https://github.com/user-attachments/assets/1124f9c1-b443-45ef-bf91-2addccca9395)
