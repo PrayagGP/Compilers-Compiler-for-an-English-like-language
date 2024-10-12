@@ -53,7 +53,8 @@ The **parser** verifies if the input string follows the rules specified in the S
 - **Handling Punctuation**: Ensures commas and hyphens are correctly placed between words, and that commas are prioritized if both are present.
 - Print the accepted input (considering tokens, not the original string) with one space between tokens (skip the quotations).
 
-###  Running the code:
+###  Running the code
+The [lex file](./lexer.l) and the [yacc file](./parser.y) can be compiled and run as follows:
 - lex lexer.l
 - yacc -d parser.y
 - gcc lex.yy.c y.tab.c -o parser -lfl
